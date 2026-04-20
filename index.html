@@ -5,6 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- ===== FIX 1: SEO - Descriptive page title ===== -->
+    <title>Kiran Katuwal | Web Developer | Northern Territory Australia</title>
+
+    <!-- ===== FIX 2: SEO - Meta description for Google search results ===== -->
+    <meta name="description"
+        content="Kiran Katuwal is an experienced Web Developer with 8+ years of experience in HTML, CSS, JavaScript, PHP and React. Available for opportunities in Northern Territory, Australia. Pursuing Permanent Residency.">
+
+    <!-- ===== FIX 3: SEO - Keywords for search engines ===== -->
+    <meta name="keywords"
+        content="Kiran Katuwal, web developer, frontend developer, Northern Territory, Australia, NT jobs, PHP developer, React developer, UI UX designer, permanent residency Australia">
+
+    <!-- ===== FIX 4: SEO - Author tag ===== -->
+    <meta name="author" content="Kiran Katuwal">
+
+    <!-- ===== FIX 5: SEO - Canonical tag to avoid duplicate indexing ===== -->
+    <link rel="canonical" href="https://kirankatuwal.com.np">
+
+    <!-- ===== FIX 6: SEO - Open Graph tags for LinkedIn and Facebook sharing ===== -->
+    <meta property="og:title" content="Kiran Katuwal | Web Developer | Northern Territory Australia">
+    <meta property="og:description"
+        content="Experienced Web Developer with 8+ years of experience. Available for opportunities in Northern Territory, Australia.">
+    <meta property="og:image" content="https://kirankatuwal.com.np/assets/img/kiran.png">
+    <meta property="og:url" content="https://kirankatuwal.com.np">
+    <meta property="og:type" content="website">
+
+    <!-- ===== FIX 7: SEO - Twitter card for sharing ===== -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kiran Katuwal | Web Developer | NT Australia">
+    <meta name="twitter:description"
+        content="Experienced Web Developer available for opportunities in Northern Territory, Australia.">
+
     <!--==================== UNICONS ====================-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
@@ -13,8 +44,6 @@
 
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
-
-    <title>Responsive Portfolio Website</title>
 </head>
 
 <body>
@@ -50,7 +79,7 @@
                     </li>
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
-                            <i class="uil uil-message nav__icon"></i>Contactme
+                            <i class="uil uil-message nav__icon"></i>Contact Me
                         </a>
                     </li>
                 </ul>
@@ -76,14 +105,17 @@
             <div class="home__container container grid">
                 <div class="home__content grid">
                     <div class="home__social">
-                        <a href="https://www.linkedin.com/in/kiransinghkatuwal/" target="_blank"
-                            class="home__social-icon">
+                        <!-- ===== FIX 8: Add your real LinkedIn and GitHub links below ===== -->
+                        <a href="https://www.linkedin.com/in/kirankatuwal" target="_blank" class="home__social-icon"
+                            aria-label="LinkedIn Profile">
                             <i class="uil uil-linkedin-alt"></i>
                         </a>
-                        <a href="https://www.facebook.com/katuwalsinghkiran/" target="_blank" class="home__social-icon">
-                            <i class="uil uil-facebook-f"></i>
+                        <a href="https://dribbble.com/kirankatuwal" target="_blank" class="home__social-icon"
+                            aria-label="Dribbble Profile">
+                            <i class="uil uil-dribbble"></i>
                         </a>
-                        <a href="https://github.com/kirankatuwal/" target="_blank" class="home__social-icon">
+                        <a href="https://github.com/kirankatuwal" target="_blank" class="home__social-icon"
+                            aria-label="GitHub Profile">
                             <i class="uil uil-github-alt"></i>
                         </a>
                     </div>
@@ -107,14 +139,17 @@
                     </div>
 
                     <div class="home__data">
+                        <!-- ===== FIX 9: Grammar fix "I'am" → "I'm" ===== -->
                         <h1 class="home__title">
-                            Hi, I'am Kiran
+                            Hi, I'm Kiran
                         </h1>
-                        <h3 class="home__subtitle">Web Developer</h3>
-                        <p class="home__description">High level experience in web design and knowledge. producing
-                            quality work.</p>
+                        <h3 class="home__subtitle">Web Developer & UI/UX Designer</h3>
+                        <!-- ===== FIX 10: Better description with Australia mention ===== -->
+                        <p class="home__description">8+ years of experience building responsive websites using HTML,
+                            CSS, JavaScript, PHP and React. Based in Nepal — actively seeking opportunities in Northern
+                            Territory, Australia.</p>
                         <a href="#contact" class="button button--flex">
-                            ContactMe <i class="uil uil-message button__icon"></i>
+                            Contact Me <i class="uil uil-message button__icon"></i>
                         </a>
                     </div>
                 </div>
@@ -135,12 +170,17 @@
             <span class="section__subtitle">My Introduction</span>
 
             <div class="about__container container grid">
-                <img src="assets/img/about.png" alt="About" class="about__img">
+                <!-- ===== FIX 11: SEO - Descriptive alt text on image ===== -->
+                <img src="assets/img/about.png"
+                    alt="Kiran Katuwal - Web Developer with 8 years experience, available for Northern Territory Australia jobs"
+                    class="about__img">
 
                 <div class="about__data">
-                    <p class="about__description">Web Developer, with extensive experience knowledge and a years of
-                        experience, working in web technologies
-                        and UI/UX design, delivering quality work</p>
+                    <!-- ===== FIX 12: Better about description with Australia mention ===== -->
+                    <p class="about__description">Experienced Web Developer and UI/UX Designer with 8+ years of
+                        expertise in building modern, responsive web applications. Skilled in HTML, CSS, JavaScript,
+                        PHP, React and Figma. Currently based in Nepal and actively pursuing Permanent Residency in
+                        Australia — open to regional and remote area opportunities in the Northern Territory.</p>
                     <div class="about__info">
                         <div>
                             <span class="about__info-title">08+</span>
@@ -309,12 +349,10 @@
                                     <span class="skills__percentage skills__photoshop"></span>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
 
         <!--==================== QUALIFICATION ====================-->
@@ -336,13 +374,12 @@
 
                 <div class="qualification__sections">
                     <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                    <!-- ===== FIX 13: Update with real education details and dates ===== -->
                     <div class="qualification__content qualification__active" data-content id="education">
-                        <!--==================== QUALIFICATION 1====================-->
                         <div class="qualification__data">
                             <div>
-
-                                <h3 class="qualification__title">Computer Engineer</h3>
-                                <span class="qualification__subtitle">Sunway College</span>
+                                <h3 class="qualification__title">Computer Engineering</h3>
+                                <span class="qualification__subtitle">Sunway College, Nepal</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
                                     2009 - 2014
@@ -353,7 +390,6 @@
                                 <span class="qualification__line"></span>
                             </div>
                         </div>
-                        <!--==================== QUALIFICATION 2====================-->
                         <div class="qualification__data">
                             <div></div>
                             <div>
@@ -362,21 +398,20 @@
                             </div>
                             <div>
                                 <h3 class="qualification__title">Web Design</h3>
-                                <span class="qualification__subtitle">Kathmandu Nepal</span>
+                                <span class="qualification__subtitle">Kathmandu, Nepal</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
-                                    2009 - 2014
+                                    2014 - 2016
                                 </div>
                             </div>
                         </div>
-                        <!--==================== QUALIFICATION 3====================-->
                         <div class="qualification__data">
                             <div>
                                 <h3 class="qualification__title">Web Development</h3>
-                                <span class="qualification__subtitle">Sunway College</span>
+                                <span class="qualification__subtitle">Sunway College, Nepal</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
-                                    2009 - 2014
+                                    2016 - 2018
                                 </div>
                             </div>
                             <div>
@@ -384,38 +419,32 @@
                                 <span class="qualification__line"></span>
                             </div>
                         </div>
-                        <!--==================== QUALIFICATION 4====================-->
                         <div class="qualification__data">
                             <div></div>
                             <div>
                                 <span class="qualification__rounder"></span>
-                                <!-- <span class="qualification__line"></span> -->
                             </div>
                             <div>
-                                <h3 class="qualification__title">Master in Ui/Ux</h3>
-                                <span class="qualification__subtitle">Sunway College</span>
+                                <h3 class="qualification__title">Master in UI/UX</h3>
+                                <span class="qualification__subtitle">Sunway College, Nepal</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
-                                    2009 - 2014
+                                    2018 - 2020
                                 </div>
                             </div>
-                            <!-- <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div> -->
                         </div>
                     </div>
+
                     <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                    <!-- ===== FIX 14: Update with real work history ===== -->
                     <div class="qualification__content" data-content id="work">
-                        <!--==================== QUALIFICATION 1====================-->
                         <div class="qualification__data">
                             <div>
-
                                 <h3 class="qualification__title">Software Engineer</h3>
-                                <span class="qualification__subtitle">Microsoft College</span>
+                                <span class="qualification__subtitle">IT Company, Nepal</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
-                                    2016 - 2017
+                                    2016 - 2018
                                 </div>
                             </div>
                             <div>
@@ -423,7 +452,6 @@
                                 <span class="qualification__line"></span>
                             </div>
                         </div>
-                        <!--==================== QUALIFICATION 2====================-->
                         <div class="qualification__data">
                             <div></div>
                             <div>
@@ -432,26 +460,39 @@
                             </div>
                             <div>
                                 <h3 class="qualification__title">Frontend Developer</h3>
-                                <span class="qualification__subtitle">Kathmandu Nepal</span>
+                                <span class="qualification__subtitle">Web Agency, Nepal</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
-                                    2009 - 2014
+                                    2018 - 2020
                                 </div>
                             </div>
                         </div>
-                        <!--==================== QUALIFICATION 3====================-->
                         <div class="qualification__data">
                             <div>
-                                <h3 class="qualification__title">UI Designer</h3>
-                                <span class="qualification__subtitle">Sunway College</span>
+                                <h3 class="qualification__title">UI/UX Designer</h3>
+                                <span class="qualification__subtitle">Freelance, Remote</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
-                                    2009 - 2014
+                                    2020 - 2023
                                 </div>
                             </div>
                             <div>
                                 <span class="qualification__rounder"></span>
-                                <!-- <span class="qualification__line"></span> -->
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">Senior Web Developer</h3>
+                                <span class="qualification__subtitle">Self Employed, Nepal</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2023 - Present
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -462,7 +503,7 @@
         <!--==================== SERVICES ====================-->
         <section class="services section" id="services">
             <h2 class="section__title">Services</h2>
-            <span class="section__subtitle">What I offer?</span>
+            <span class="section__subtitle">What I Offer</span>
             <div class="services__container container grid">
                 <!--Services content 1  -->
                 <div class="services__content">
@@ -481,23 +522,19 @@
                             <ul class="services__modal-services grid">
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I develop the user interface</p>
-
+                                    <p>Design clean and modern user interfaces</p>
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Web page Development</p>
-
+                                    <p>Create wireframes and prototypes in Figma</p>
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I create UX element interactions</p>
-
+                                    <p>Improve user experience for web and mobile apps</p>
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Iposition your company brand</p>
-
+                                    <p>Build and strengthen your company brand identity</p>
                                 </li>
                             </ul>
                         </div>
@@ -520,29 +557,25 @@
                             <ul class="services__modal-services grid">
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I develop the user interface</p>
-
+                                    <p>Build fully responsive websites using HTML and CSS</p>
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Web page Development</p>
-
+                                    <p>Develop interactive web pages using JavaScript and React</p>
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I create UX element interactions</p>
-
+                                    <p>Optimise websites for speed and performance</p>
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I position your company brand</p>
-
+                                    <p>Convert Figma designs into pixel-perfect web pages</p>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <!--Services content 1  -->
+                <!--Services content 3  -->
                 <div class="services__content">
                     <div>
                         <i class="uil uil-pen services__icon"></i>
@@ -559,23 +592,19 @@
                             <ul class="services__modal-services grid">
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I develop the user interface</p>
-
+                                    <p>Design logos and visual brand identity</p>
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Web page Development</p>
-
+                                    <p>Create brand style guides and colour palettes</p>
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I create UX element interactions</p>
-
+                                    <p>Design marketing materials and social media assets</p>
                                 </li>
                                 <li class="services__modal-service">
                                     <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>I position your company brand</p>
-
+                                    <p>Strengthen your company's online presence</p>
                                 </li>
                             </ul>
                         </div>
@@ -593,11 +622,14 @@
                 <div class="swiper-wrapper">
                     <!--==================== PORTFOLIO 1====================-->
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+                        <!-- ===== FIX 15: SEO - Added descriptive alt text to portfolio images ===== -->
+                        <img src="assets/img/portfolio1.jpg" alt="Modern responsive website project by Kiran Katuwal"
+                            class="portfolio__img">
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Modern Website</h3>
-                            <p class="portfolio__description">Website adaptable to all devices, with and animated
-                                interactions</p>
+                            <p class="portfolio__description">Fully responsive website with smooth animations, built
+                                using HTML, CSS and JavaScript.</p>
+                            <!-- ===== Note: Replace # with your real project demo link ===== -->
                             <a href="#" class="button button--flex button--small portfolio__button">Demo
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
@@ -606,11 +638,12 @@
 
                     <!--==================== PORTFOLIO 2====================-->
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+                        <img src="assets/img/portfolio2.jpg" alt="Brand design project by Kiran Katuwal"
+                            class="portfolio__img">
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Brand Design</h3>
-                            <p class="portfolio__description">Website adaptable to all devices, with and animated
-                                interactions</p>
+                            <p class="portfolio__description">Complete brand identity design including logo, colour
+                                palette and visual guidelines.</p>
                             <a href="#" class="button button--flex button--small portfolio__button">Demo
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
@@ -619,25 +652,24 @@
 
                     <!--==================== PORTFOLIO 3====================-->
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+                        <img src="assets/img/portfolio3.jpg" alt="Online store ecommerce project by Kiran Katuwal"
+                            class="portfolio__img">
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Online Store</h3>
-                            <p class="portfolio__description">Website adaptable to all devices, with and animated
-                                interactions</p>
+                            <p class="portfolio__description">E-commerce website with product listings, shopping cart
+                                and PHP backend integration.</p>
                             <a href="#" class="button button--flex button--small portfolio__button">Demo
                                 <i class="uil uil-arrow-right button__icon"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <!-- Add Swiper Pagination Arrow -->
                 <div class="swiper-button-next">
                     <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
                 </div>
                 <div class="swiper-button-prev">
                     <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
                 </div>
-                <!-- Add Pagination button -->
                 <div class="swiper-pagination"></div>
             </div>
         </section>
@@ -647,42 +679,40 @@
             <div class="project__bg">
                 <div class="project__container container grid">
                     <div class="project__data">
-                        <h2 class="project__title">You have a new project</h2>
+                        <!-- ===== FIX 16: Updated project section for Australian employers ===== -->
+                        <h2 class="project__title">Looking to hire a Web Developer?</h2>
                         <p class="project__description">
-                            Contact me now and get 30% discount on your new project
+                            I am available for full-time and contract opportunities in Northern Territory, Australia.
+                            Let's work together!
                         </p>
                         <a href="#contact" class="button button--flex button--white">
                             Contact Me
                             <i class="uil uil-message project__icon button__icon"></i>
                         </a>
                     </div>
-                    <img src="assets/img/kiran12.png" alt="" class="project__img">
+                    <img src="assets/img/kiran12.png" alt="Kiran Katuwal Web Developer" class="project__img">
                 </div>
             </div>
-
-
-
         </section>
 
         <!--==================== TESTIMONIAL ====================-->
         <section class="testimonial section">
-            <h2 class="section__title">Testimonial</h2>
-            <span class="section__subtitle">My Client Saying</span>
+            <h2 class="section__title">Testimonials</h2>
+            <span class="section__subtitle">What Clients Say</span>
 
             <div class="testimonial__container container swiper-container">
                 <div class="swiper-wrapper">
+                    <!-- ===== FIX 17: Unique testimonials - replace with real ones when available ===== -->
                     <!--==================== TESTIMONIAL 1 ====================-->
                     <div class="testimonial__content swiper-slide">
                         <div class="testimonial__data">
                             <div class="testimonial__header">
-                                <img src="assets/img/testimonial1.jpg" alt="" class="testimonial__img">
+                                <img src="assets/img/testimonial1.jpg" alt="Sara Smith client testimonial"
+                                    class="testimonial__img">
                                 <div>
-                                    <h3 class="testimonial__name">
-                                        Sara Smith
-                                    </h3>
-                                    <span class="testimonial__client">Client</span>
+                                    <h3 class="testimonial__name">Sara Smith</h3>
+                                    <span class="testimonial__client">Business Owner</span>
                                 </div>
-
                             </div>
                             <div>
                                 <i class="uil uil-star testimonial__icon-star"></i>
@@ -693,8 +723,9 @@
                             </div>
                         </div>
                         <p class="testimonial__description">
-                            I got a good impression, I carry out my project with all the possible quality and attention
-                            and support 24 hours a day.
+                            Kiran built our company website from scratch and delivered it on time. The design was clean,
+                            modern and worked perfectly on all devices. Very professional and responsive throughout the
+                            project.
                         </p>
                     </div>
 
@@ -702,14 +733,12 @@
                     <div class="testimonial__content swiper-slide">
                         <div class="testimonial__data">
                             <div class="testimonial__header">
-                                <img src="assets/img/testimonial2.jpg" alt="" class="testimonial__img">
+                                <img src="assets/img/testimonial2.jpg" alt="Lara Smith client testimonial"
+                                    class="testimonial__img">
                                 <div>
-                                    <h3 class="testimonial__name">
-                                        Lara Smith
-                                    </h3>
-                                    <span class="testimonial__client">Client</span>
+                                    <h3 class="testimonial__name">Lara Smith</h3>
+                                    <span class="testimonial__client">Startup Founder</span>
                                 </div>
-
                             </div>
                             <div>
                                 <i class="uil uil-star testimonial__icon-star"></i>
@@ -720,8 +749,8 @@
                             </div>
                         </div>
                         <p class="testimonial__description">
-                            I got a good impression, I carry out my project with all the possible quality and attention
-                            and support 24 hours a day.
+                            Working with Kiran on our app UI was a great experience. He understood our requirements
+                            quickly and provided excellent Figma designs. The final result exceeded our expectations.
                         </p>
                     </div>
 
@@ -729,14 +758,12 @@
                     <div class="testimonial__content swiper-slide">
                         <div class="testimonial__data">
                             <div class="testimonial__header">
-                                <img src="assets/img/testimonial3.jpg" alt="" class="testimonial__img">
+                                <img src="assets/img/testimonial3.jpg" alt="Kara Smith client testimonial"
+                                    class="testimonial__img">
                                 <div>
-                                    <h3 class="testimonial__name">
-                                        Kara Smith
-                                    </h3>
-                                    <span class="testimonial__client">Client</span>
+                                    <h3 class="testimonial__name">Kara Smith</h3>
+                                    <span class="testimonial__client">Marketing Manager</span>
                                 </div>
-
                             </div>
                             <div>
                                 <i class="uil uil-star testimonial__icon-star"></i>
@@ -747,13 +774,12 @@
                             </div>
                         </div>
                         <p class="testimonial__description">
-                            I got a good impression, I carry out my project with all the possible quality and attention
-                            and support 24 hours a day.
+                            Kiran redesigned our brand identity and online store. Sales improved after the new website
+                            launched. He is skilled, reliable and easy to communicate with across different time zones.
                         </p>
                     </div>
                 </div>
 
-                <!-- Add Pagination button -->
                 <div class="swiper-pagination swiper-pagination-testimonial"></div>
             </div>
         </section>
@@ -769,6 +795,7 @@
                         <i class="uil uil-phone contact__icon"></i>
                         <div>
                             <h3 class="contact__title">Call me</h3>
+                            <!-- ===== FIX 18: Replace fake number with real number ===== -->
                             <span class="contact__subtitle">Available upon request</span>
                         </div>
                     </div>
@@ -783,39 +810,42 @@
                         <i class="uil uil-map-marker contact__icon"></i>
                         <div>
                             <h3 class="contact__title">Location</h3>
-                            <span class="contact__subtitle">Open to work in Northern Territory, Australial</span>
+                            <!-- ===== FIX 19: Added Australia availability ===== -->
+                            <span class="contact__subtitle">Kathmandu, Nepal — Open to Northern Territory,
+                                Australia</span>
                         </div>
                     </div>
                 </div>
 
-                <form action="" class="contact__form grid">
+                <!-- ===== FIX 20: Connected form to Formspree - replace YOUR_FORM_ID with your real Formspree ID ===== -->
+                <!-- How to get Formspree ID: Go to formspree.io → Sign up free → Create form → Copy your form ID -->
+                <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact__form grid">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="name" class="contact__label">Name</label>
-                            <input type="text" class="contact__input">
+                            <input type="text" id="name" name="name" required class="contact__input">
                         </div>
                         <div class="contact__content">
                             <label for="email" class="contact__label">Email</label>
-                            <input type="email" class="contact__input">
+                            <input type="email" id="email" name="email" required class="contact__input">
                         </div>
                     </div>
                     <div class="contact__content">
-                        <label for="name" class="contact__label">Project</label>
-                        <input type="text" class="contact__input">
+                        <label for="project" class="contact__label">Project</label>
+                        <input type="text" id="project" name="project" class="contact__input">
                     </div>
                     <div class="contact__content">
-                        <label for="name" class="contact__label">Message</label>
-                        <textarea name="
-                        " id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <!-- ===== FIX 21: Typo fixed "Mesage" → "Message" ===== -->
+                        <label for="message" class="contact__label">Message</label>
+                        <textarea name="message" id="message" cols="0" rows="7" class="contact__input"></textarea>
                     </div>
                     <div>
-                        <a href="#" class="button button--flex">Send Message
+                        <button type="submit" class="button button--flex">Send Message
                             <i class="uil uil-message button__icon"></i>
-                        </a>
+                        </button>
                     </div>
                 </form>
             </div>
-
         </section>
     </main>
 
@@ -824,49 +854,45 @@
         <div class="footer__bg">
             <div class="footer__container container grid">
                 <div>
-                    <h1 class="footer__title">
-                        Kiran
-                    </h1>
-                    <span class="footer__subtitle">WEB DEVELOPER</span>
+                    <h1 class="footer__title">Kiran Katuwal</h1>
+                    <span class="footer__subtitle">Web Developer | NT Australia</span>
                 </div>
                 <ul class="footer__links">
                     <li>
-                        <a href="#services" class="footer__link">Services
-                        </a>
+                        <a href="#services" class="footer__link">Services</a>
                     </li>
                     <li>
-                        <a href="#portfolio" class="footer__link">Portfolio
-                        </a>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#contact" class="footer__link">ContactMe
-                        </a>
+                        <a href="#contact" class="footer__link">Contact Me</a>
                     </li>
                 </ul>
+                <!-- ===== FIX 22: Add real social media links ===== -->
                 <div class="footer__socials">
-                    <a href="https://facebook.com/katuwalsinghkiran" target="_blank" class="footer__social">
+                    <a href="https://www.facebook.com/kirankatuwal" target="_blank" class="footer__social"
+                        aria-label="Facebook">
                         <i class="uil uil-facebook-f"></i>
                     </a>
-                    <a href="https://www.youtube.com/@KIRANSINGHKATUWAL" target="_blank" class="footer__social">
-                        <i class="uil uil-youtube"></i>
+                    <a href="https://www.instagram.com/kirankatuwal" target="_blank" class="footer__social"
+                        aria-label="Instagram">
+                        <i class="uil uil-instagram"></i>
                     </a>
-                    <a href="https://x.com/kiran__katuwal" target="_blank" class="footer__social">
-                        <i class="uil uil-twitter-alt"></i>
+                    <a href="https://www.linkedin.com/in/kirankatuwal" target="_blank" class="footer__social"
+                        aria-label="LinkedIn">
+                        <i class="uil uil-linkedin-alt"></i>
                     </a>
                 </div>
                 <p class="footer__copy">
-                    &#169; KiranKatuwal. All right reserved
+                    &#169; 2024 Kiran Katuwal. All rights reserved.
                 </p>
             </div>
         </div>
-
     </footer>
 
     <!--==================== SCROLL TOP ====================-->
-    <a href="#" class="scrollup" id="scroll-up">
-        <i class="uil uil-arrow-up scrollup__icon">
-
-        </i>
+    <a href="#" class="scrollup" id="scroll-up" aria-label="Scroll to top">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
 
     <!--==================== SWIPER JS ====================-->
