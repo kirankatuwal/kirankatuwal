@@ -1279,13 +1279,20 @@ img {
     .project__container {
         background-color: var(--first-color-second);
         border-radius: 1rem;
-        padding: 3rem 2.5rem 0;
+        padding: 3rem 1rem 0 2.5rem;
         grid-template-columns: 1fr max-content;
-        column-gap: 3rem;
+        column-gap: 0.5rem;
     }
 
     .project__data {
         padding-top: .8rem;
+    }
+
+    .project__img {
+        border-radius: 50%;
+        width: 350px;
+        height: 350px;
+        background-color: #7a60fb;
     }
 
     .footer__container {
