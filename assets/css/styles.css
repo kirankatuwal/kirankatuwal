@@ -1289,6 +1289,7 @@ img {
         width: 350px;
         height: 350px;
         background-color: #7a60fb;
+        overflow: hidden;
     }
 
     .project__data {
