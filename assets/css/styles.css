@@ -1284,15 +1284,15 @@ img {
         column-gap: 0.5rem;
     }
 
-    .project__data {
-        padding-top: .8rem;
-    }
-
-    .project__img {
+    .project_side_content {
         border-radius: 50%;
         width: 350px;
         height: 350px;
         background-color: #7a60fb;
+    }
+
+    .project__data {
+        padding-top: .8rem;
     }
 
     .footer__container {
