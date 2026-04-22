@@ -44,14 +44,44 @@
 
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
+
+
+    <!-- ===== K-Code Favicon — Kiran Katuwal ===== -->
+    <link rel="icon" type="image/x-icon" href="assets/image/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="assets/image/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/image/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/image/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/image/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/image/android-chrome-512x512.png">
 </head>
 
 <body>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class="nav__logo">Kiran</a>
-
+            <!-- <a href="#" class="nav__logo">Kiran</a> -->
+            <!-- ✅ Paste inside your <nav> replacing the text "Kiran" -->
+            <a href="#" class="nav__logo" style="display:flex;align-items:center;gap:8px;">
+                <svg width="32" height="32" viewBox="0 0 96 96" aria-label="Kiran Katuwal logo">
+                    <rect width="96" height="96" rx="20" fill="#1a1a2e" />
+                    <!-- Vertical bar of K -->
+                    <line x1="28" y1="20" x2="28" y2="76" stroke="#f5f5f7" stroke-width="8" stroke-linecap="round" />
+                    <!-- Top diagonal — purple -->
+                    <line x1="28" y1="48" x2="68" y2="22" stroke="#7F77DD" stroke-width="7" stroke-linecap="round" />
+                    <!-- Bottom diagonal — teal -->
+                    <line x1="28" y1="48" x2="68" y2="74" stroke="#1D9E75" stroke-width="7" stroke-linecap="round" />
+                    <!-- Node dots — 3 connection points -->
+                    <circle cx="68" cy="22" r="6" fill="#7F77DD" />
+                    <circle cx="68" cy="74" r="6" fill="#1D9E75" />
+                    <circle cx="28" cy="48" r="6" fill="#f5f5f7" />
+                    <!-- Bracket hint — right side -->
+                    <path d="M76 32 L84 48 L76 64" fill="none" stroke="#f5f5f7" stroke-width="3" stroke-linecap="round"
+                        stroke-linejoin="round" opacity="0.2" />
+                </svg>
+                <span style="font-size:25px;font-weight:500;letter-spacing:0.04em;">IRAN<sup
+                        style="font-size:12px;color:#1D9E75;">™</sup></span>
+            </a>
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
@@ -110,9 +140,9 @@
                             aria-label="LinkedIn Profile">
                             <i class="uil uil-linkedin-alt"></i>
                         </a>
-                        <a href="https://dribbble.com/kirankatuwal" target="_blank" class="home__social-icon"
-                            aria-label="Dribbble Profile">
-                            <i class="uil uil-dribbble"></i>
+                        <a href="https://youtube.com/kiransinghkatuwal" target="_blank" class="home__social-icon"
+                            aria-label="Youtube Profile">
+                            <i class="uil uil-youtube"></i>
                         </a>
                         <a href="https://github.com/kirankatuwal" target="_blank" class="home__social-icon"
                             aria-label="GitHub Profile">
@@ -143,11 +173,11 @@
                         <h1 class="home__title">
                             Hi, I'm Kiran
                         </h1>
-                        <h3 class="home__subtitle">Web Developer & UI/UX Designer</h3>
+                        <h3 class="home__subtitle">Web Developer & IT Assistant</h3>
                         <!-- ===== FIX 10: Better description with Australia mention ===== -->
-                        <p class="home__description">8+ years of experience building responsive websites using HTML,
-                            CSS, JavaScript, PHP and React. Based in Nepal — actively seeking opportunities in Northern
-                            Territory, Australia.</p>
+                        <p class="home__description">2+ years of experience building responsive websites using HTML,
+                            CSS, JS, PHP and React, based in Nepal and now actively seeking opportunities in Australia.
+                        </p>
                         <a href="#contact" class="button button--flex">
                             Contact Me <i class="uil uil-message button__icon"></i>
                         </a>
@@ -177,26 +207,26 @@
 
                 <div class="about__data">
                     <!-- ===== FIX 12: Better about description with Australia mention ===== -->
-                    <p class="about__description">Experienced Web Developer and UI/UX Designer with 8+ years of
+                    <p class="about__description">Experienced Web Developer and UI/UX Designer with 2+ years of
                         expertise in building modern, responsive web applications. Skilled in HTML, CSS, JavaScript,
-                        PHP, React and Figma. Currently based in Nepal and actively pursuing Permanent Residency in
-                        Australia — open to regional and remote area opportunities in the Northern Territory.</p>
+                        PHP, React and Figma. Currently open to regional and remote area opportunities in any part of
+                        Australia.</p>
                     <div class="about__info">
                         <div>
-                            <span class="about__info-title">08+</span>
+                            <span class="about__info-title">02+</span>
                             <span class="about__info-name">Years<br />experience</span>
                         </div>
                         <div>
-                            <span class="about__info-title">20+</span>
+                            <span class="about__info-title">30+</span>
                             <span class="about__info-name">Completed<br />projects</span>
                         </div>
                         <div>
-                            <span class="about__info-title">05+</span>
+                            <span class="about__info-title">02+</span>
                             <span class="about__info-name">Companies<br />worked</span>
                         </div>
                     </div>
                     <div class="about__buttons">
-                        <a download="" href="assets/pdf/kiran.pdf" class="button button--flex">
+                        <a download="" href="assets/pdf/Kiran_Resume.pdf" class="button button--flex">
                             Download CV <i class="uil uil-download-alt button__icon"></i>
                         </a>
                     </div>
@@ -265,7 +295,7 @@
                             <i class="uil uil-server-network skills__icon"></i>
                             <div>
                                 <h1 class="skills__titles">Backend Developer</h1>
-                                <span class="skills__subtitle">More than 2 years</span>
+                                <span class="skills__subtitle">More than a year</span>
                             </div>
                             <i class="uil uil-angle-down skills__arrow"></i>
                         </div>
@@ -300,7 +330,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name">Python</h3>
-                                    <span class="skills__number">40%</span>
+                                    <span class="skills__number">50%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage skills__python"></span>
@@ -317,7 +347,7 @@
                             <i class="uil uil-swatchbook skills__icon"></i>
                             <div>
                                 <h1 class="skills__titles">Designer</h1>
-                                <span class="skills__subtitle">More than 4 years</span>
+                                <span class="skills__subtitle">More than 2 years</span>
                             </div>
                             <i class="uil uil-angle-down skills__arrow"></i>
                         </div>
@@ -334,7 +364,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name">Sketch</h3>
-                                    <span class="skills__number">40%</span>
+                                    <span class="skills__number">30%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage skills__sketch"></span>
@@ -343,7 +373,7 @@
                             <div class="skills__data">
                                 <div class="skills__titles">
                                     <h3 class="skills__name">Photoshop</h3>
-                                    <span class="skills__number">60%</span>
+                                    <span class="skills__number">30%</span>
                                 </div>
                                 <div class="skills__bar">
                                     <span class="skills__percentage skills__photoshop"></span>
@@ -378,11 +408,11 @@
                     <div class="qualification__content qualification__active" data-content id="education">
                         <div class="qualification__data">
                             <div>
-                                <h3 class="qualification__title">Computer Engineering</h3>
-                                <span class="qualification__subtitle">Sunway College, Nepal</span>
+                                <h3 class="qualification__title">Master's of Information Technology</h3>
+                                <span class="qualification__subtitle">La Trobe University</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
-                                    2009 - 2014
+                                    2023 - 2025
                                 </div>
                             </div>
                             <div>
@@ -397,42 +427,15 @@
                                 <span class="qualification__line"></span>
                             </div>
                             <div>
-                                <h3 class="qualification__title">Web Design</h3>
-                                <span class="qualification__subtitle">Kathmandu, Nepal</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2014 - 2016
-                                </div>
-                            </div>
-                        </div>
-                        <div class="qualification__data">
-                            <div>
-                                <h3 class="qualification__title">Web Development</h3>
+                                <h3 class="qualification__title">Bachelor's of Computer Science</h3>
                                 <span class="qualification__subtitle">Sunway College, Nepal</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
-                                    2016 - 2018
-                                </div>
-                            </div>
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-                        </div>
-                        <div class="qualification__data">
-                            <div></div>
-                            <div>
-                                <span class="qualification__rounder"></span>
-                            </div>
-                            <div>
-                                <h3 class="qualification__title">Master in UI/UX</h3>
-                                <span class="qualification__subtitle">Sunway College, Nepal</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2018 - 2020
+                                    2017 - 2021
                                 </div>
                             </div>
                         </div>
+
                     </div>
 
                     <!--==================== QUALIFICATION CONTENT 2 ====================-->
@@ -440,11 +443,11 @@
                     <div class="qualification__content" data-content id="work">
                         <div class="qualification__data">
                             <div>
-                                <h3 class="qualification__title">Software Engineer</h3>
-                                <span class="qualification__subtitle">IT Company, Nepal</span>
+                                <h3 class="qualification__title">WordPress Developer</h3>
+                                <span class="qualification__subtitle">Wizonbiz Digital, Nepal</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
-                                    2016 - 2018
+                                    2021 - 2023
                                 </div>
                             </div>
                             <div>
@@ -458,22 +461,22 @@
                                 <span class="qualification__rounder"></span>
                                 <span class="qualification__line"></span>
                             </div>
+                            <div>
+                                <h3 class="qualification__title">Web Developer</h3>
+                                <span class="qualification__subtitle">Digital Agency, Nepal</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2020 - 2021
+                                </div>
+                            </div>
+                        </div>
+                        <div class="qualification__data">
                             <div>
                                 <h3 class="qualification__title">Frontend Developer</h3>
-                                <span class="qualification__subtitle">Web Agency, Nepal</span>
+                                <span class="qualification__subtitle">Theme Nepal, Nepal</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
-                                    2018 - 2020
-                                </div>
-                            </div>
-                        </div>
-                        <div class="qualification__data">
-                            <div>
-                                <h3 class="qualification__title">UI/UX Designer</h3>
-                                <span class="qualification__subtitle">Freelance, Remote</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2020 - 2023
+                                    2020 - 2020(3 months)
                                 </div>
                             </div>
                             <div>
@@ -487,11 +490,11 @@
                                 <span class="qualification__rounder"></span>
                             </div>
                             <div>
-                                <h3 class="qualification__title">Senior Web Developer</h3>
-                                <span class="qualification__subtitle">Self Employed, Nepal</span>
+                                <h3 class="qualification__title">IT Intern</h3>
+                                <span class="qualification__subtitle">Laxmi Group PVT. LTD, Nepal</span>
                                 <div class="qualification__calendar">
                                     <i class="uil uil-calendar-alt"></i>
-                                    2023 - Present
+                                    2019 - 2019(3 months)
                                 </div>
                             </div>
                         </div>
@@ -630,9 +633,9 @@
                             <p class="portfolio__description">Fully responsive website with smooth animations, built
                                 using HTML, CSS and JavaScript.</p>
                             <!-- ===== Note: Replace # with your real project demo link ===== -->
-                            <a href="#" class="button button--flex button--small portfolio__button">Demo
+                            <!-- <a href="#" class="button button--flex button--small portfolio__button">Demo
                                 <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
+                            </a> -->
                         </div>
                     </div>
 
@@ -644,9 +647,9 @@
                             <h3 class="portfolio__title">Brand Design</h3>
                             <p class="portfolio__description">Complete brand identity design including logo, colour
                                 palette and visual guidelines.</p>
-                            <a href="#" class="button button--flex button--small portfolio__button">Demo
+                            <!-- <a href="#" class="button button--flex button--small portfolio__button">Demo
                                 <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
+                            </a> -->
                         </div>
                     </div>
 
@@ -658,9 +661,9 @@
                             <h3 class="portfolio__title">Online Store</h3>
                             <p class="portfolio__description">E-commerce website with product listings, shopping cart
                                 and PHP backend integration.</p>
-                            <a href="#" class="button button--flex button--small portfolio__button">Demo
+                            <!-- <a href="#" class="button button--flex button--small portfolio__button">Demo
                                 <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
+                            </a> -->
                         </div>
                     </div>
                 </div>
@@ -682,7 +685,7 @@
                         <!-- ===== FIX 16: Updated project section for Australian employers ===== -->
                         <h2 class="project__title">Looking to hire a Web Developer?</h2>
                         <p class="project__description">
-                            I am available for full-time and contract opportunities in Northern Territory, Australia.
+                            I am available for full-time and contract opportunities in Australia.
                             Let's work together!
                         </p>
                         <a href="#contact" class="button button--flex button--white">
@@ -711,7 +714,7 @@
                                 <img src="assets/img/testimonial1.jpg" alt="Sara Smith client testimonial"
                                     class="testimonial__img">
                                 <div>
-                                    <h3 class="testimonial__name">Sara Smith</h3>
+                                    <h3 class="testimonial__name">Kumari Devi</h3>
                                     <span class="testimonial__client">Business Owner</span>
                                 </div>
                             </div>
@@ -737,7 +740,7 @@
                                 <img src="assets/img/testimonial2.jpg" alt="Lara Smith client testimonial"
                                     class="testimonial__img">
                                 <div>
-                                    <h3 class="testimonial__name">Lara Smith</h3>
+                                    <h3 class="testimonial__name">Ram Bahadur</h3>
                                     <span class="testimonial__client">Startup Founder</span>
                                 </div>
                             </div>
@@ -762,7 +765,7 @@
                                 <img src="assets/img/testimonial3.jpg" alt="Kara Smith client testimonial"
                                     class="testimonial__img">
                                 <div>
-                                    <h3 class="testimonial__name">Kara Smith</h3>
+                                    <h3 class="testimonial__name">Sita K.</h3>
                                     <span class="testimonial__client">Marketing Manager</span>
                                 </div>
                             </div>
@@ -804,7 +807,7 @@
                         <i class="uil uil-envelope contact__icon"></i>
                         <div>
                             <h3 class="contact__title">Email me</h3>
-                            <span class="contact__subtitle">Kirankatuwal1@gmail.com</span>
+                            <span class="contact__subtitle">Available upon request</span>
                         </div>
                     </div>
                     <div class="contact__information">
@@ -812,15 +815,17 @@
                         <div>
                             <h3 class="contact__title">Location</h3>
                             <!-- ===== FIX 19: Added Australia availability ===== -->
-                            <span class="contact__subtitle">Kathmandu, Nepal — Open to Northern Territory,
-                                Australia</span>
+
+                            <!-- 82ffc04e-2e17-4390-909d-7c08ac651c61 -->
+                            <span class="contact__subtitle">Victoria, Australia</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- ===== FIX 20: Connected form to Formspree - replace YOUR_FORM_ID with your real Formspree ID ===== -->
-                <!-- How to get Formspree ID: Go to formspree.io → Sign up free → Create form → Copy your form ID -->
-                <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact__form grid">
+
+                <form action="#contact" method="POST">
+                    <input type="hidden" name="access_key" value="82ffc04e-2e17-4390-909d-7c08ac651c61">
+
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="name" class="contact__label">Name</label>
@@ -830,20 +835,20 @@
                             <label for="email" class="contact__label">Email</label>
                             <input type="email" id="email" name="email" required class="contact__input">
                         </div>
-                    </div>
-                    <div class="contact__content">
-                        <label for="project" class="contact__label">Project</label>
-                        <input type="text" id="project" name="project" class="contact__input">
-                    </div>
-                    <div class="contact__content">
-                        <!-- ===== FIX 21: Typo fixed "Mesage" → "Message" ===== -->
-                        <label for="message" class="contact__label">Message</label>
-                        <textarea name="message" id="message" cols="0" rows="7" class="contact__input"></textarea>
-                    </div>
-                    <div>
-                        <button type="submit" class="button button--flex">Send Message
-                            <i class="uil uil-message button__icon"></i>
-                        </button>
+
+                        <div class="contact__content">
+                            <label for="project" class="contact__label">Project</label>
+                            <input type="text" id="project" name="project" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="message" class="contact__label">Message</label>
+                            <textarea name="message" id="message" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="button button--flex">Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </button>
+                        </div>
                     </div>
                 </form>
             </div>

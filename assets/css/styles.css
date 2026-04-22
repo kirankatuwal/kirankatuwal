@@ -336,6 +336,7 @@ img {
 
 .home__description {
     margin-bottom: var(--mb-2);
+    text-align: justify;
 }
 
 .home__scroll {
@@ -529,43 +530,43 @@ img {
 }
 
 .skills__css {
-    width: 90%;
+    width: 80%;
 }
 
 .skills__js {
-    width: 90%;
-}
-
-.skills__react {
-    width: 90%;
-}
-
-.skills__php {
     width: 60%;
 }
 
-.skills__node {
-    width: 90%;
-}
-
-.skills__firebase {
+.skills__react {
     width: 40%;
 }
 
+.skills__php {
+    width: 80%;
+}
+
+.skills__node {
+    width: 40%;
+}
+
+.skills__firebase {
+    width: 60%;
+}
+
 .skills__python {
-    width: 90%;
+    width: 50%;
 }
 
 .skills__figma {
-    width: 90%;
+    width: 80%;
 }
 
 .skills__sketch {
-    width: 90%;
+    width: 30%;
 }
 
 .skills__photoshop {
-    width: 90%;
+    width: 30%;
 }
 
 .skills__close .skills__list {
