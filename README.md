@@ -10,12 +10,11 @@
 
 ## 🚀 About Me
 
-- 🌏 Based in **Kathmandu, Nepal** — targeting opportunities in **Northern Territory, Australia**
-- 💼 **8+ years** of experience in Web Development & UI/UX Design
+- 🌏 Based in **Victoria, Australia** — targeting opportunities in **Northern Territory, Australia**
+- 💼 **2+ years** of experience in Web Development & UI/UX Design
 - 🔭 Currently working on my **portfolio** at [kirankatuwal.com.np](https://kirankatuwal.com.np)
 - 🌱 Currently learning **React** and scaling my **IT Support** skills for Australian PR
 - 🎯 Open to **Full-time | Contract | Remote** opportunities
-- 📫 Reach me at **kiran.sunway@gmail.com**
 
 ---
 
