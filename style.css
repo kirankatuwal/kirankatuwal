@@ -1,0 +1,54 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+}
+
+#jobList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.job-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.goback {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.goback a {
+    color: rgb(10, 110, 110);
+}
+
+.goback a:hover {
+    color: rgb(9, 173, 173);
+    transition: .4s all ease;
+}
